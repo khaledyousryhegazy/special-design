@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Design</title>
+    <link rel="stylesheet" href="./css/master.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+  </head>
+  <body>
+    <!-- START SETTING SIDE BAR -->
+    <div class="setting">
+      <i class="fa-solid fa-gear"></i>
+      <div class="content">
+        <div class="color">
+          <h3>Color</h3>
+          <ul>
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#ff0065"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color="#6c5ce7"></li>
+          </ul>
+        </div>
+        <div class="random-wallpaper share">
+          <h3>Random Wallpaper</h3>
+          <div class="yes-no">
+            <span class="active yes" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="scroll share">
+          <h3>Scroll Pointes</h3>
+          <div class="yes-no">
+            <span class="active yes" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <label class="switch">
+          <h3>Dark Mode</h3>
+          <input type="checkbox" id="toggle-btn" />
+          <span class="slider"></span>
+        </label>
+        <div class="reset">
+          <button>Reset</button>
+        </div>
+      </div>
+    </div>
+    <!-- END SETTING SIDE BAR -->
+
+    <!-- START SCROLL POINTES -->
+    <div class="scroll-pointes">
+      <a href="#Landing"></a>
+      <a href="#About"></a>
+      <a href="#Skills"></a>
+      <a href="#Gallery"></a>
+      <a href="#Timeline"></a>
+      <a href="#Features"></a>
+      <a href="#Testimonials"></a>
+    </div>
+    <!-- END SCROLL POINTES -->
+    <!-- START LANDING AND HEADER -->
+    <div id="Landing" class="landing">
+      <div class="container">
+        <div class="header">
+          <h2>Frontend Design</h2>
+          <i class="fa-solid fa-bars"></i>
+          <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Timeline">Timeline</a></li>
+            <li><a href="#Features">Features</a></li>
+            <li><a href="#Testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="center-info">
+          <h1>We Are <span>Creative</span> Agency</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            odit nihil ullam nesciunt quidem iste
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END LANDING AND HEADER -->
+    <div id="About" class="about-us">
+      <div class="container">
+        <div class="left">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            ipsum, tenetur dolores esse magni ratione distinctio! Quod iusto
+            neque fuga, maxime quos nostrum quibusdam dicta deserunt blanditiis
+            non voluptate id?
+          </p>
+        </div>
+        <div class="right">
+          <img src="./imgs/about-us.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- END ABOUT US -->
+    <!-- START OUR SKILLS -->
+    <div id="Skills" class="our-skills">
+      <div class="container">
+        <!-- SKILL ONE HTML -->
+        <div class="skill">
+          <h2>HTML</h2>
+          <span><span data-width="90%"></span></span>
+        </div>
+        <!-- SKILL TWO CSS -->
+        <div class="skill">
+          <h2>CSS</h2>
+          <span><span data-width="85%"></span></span>
+        </div>
+        <!-- SKILL THREE JAVASCRIPT -->
+        <div class="skill">
+          <h2>JAVASCRIPT</h2>
+          <span><span data-width="70%"></span></span>
+        </div>
+        <!-- SKILL FOUR BOOTSTRAP -->
+        <div class="skill">
+          <h2>BOOTSTRAP</h2>
+          <span><span data-width="90%"></span></span>
+        </div>
+        <!-- SKILL FIVE SASS -->
+        <div class="skill">
+          <h2>SASS</h2>
+          <span><span data-width="95%"></span></span>
+        </div>
+      </div>
+    </div>
+    <!-- END OUR SKILLS -->
+    <!-- START OUR GALLERY -->
+    <div id="Gallery" class="our-gallery">
+      <div class="parent">
+        <span class="close">x</span>
+        <div class="img-container"></div>
+      </div>
+      <div class="container">
+        <h1>Our Gallery</h1>
+        <div class="images">
+          <img src="./imgs/01.jpg" alt="" />
+          <img src="./imgs/02.jpg" alt="" />
+          <img src="./imgs/03.jpg" alt="" />
+          <img src="./imgs/04.jpg" alt="" />
+          <img src="./imgs/05.jpg" alt="" />
+          <img src="./imgs/06.png" alt="" />
+          <img src="./imgs/07.jpg" alt="" />
+          <img src="./imgs/08.jpg" alt="" />
+          <img src="./imgs/09.jpg" alt="" />
+          <img src="./imgs/10.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- END OUR GALLERY -->
+    <!-- START TIME LINE -->
+    <div id="Timeline" class="time-line">
+      <div class="container">
+        <!-- FIRST YEAR -->
+        <div class="year">2020</div>
+        <!-- ONE -->
+        <div class="time-info left">
+          <h2>Testing Heading</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+            Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+            nobis quam?
+          </p>
+        </div>
+        <!-- TWO -->
+        <div class="time-info right">
+          <h2>Testing Heading</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+            Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+            nobis quam?
+          </p>
+        </div>
+        <!-- SECOND YEAR -->
+        <div class="year">2018</div>
+        <!-- THREE -->
+        <div class="time-info left">
+          <h2>Testing Heading</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+            Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+            nobis quam?
+          </p>
+        </div>
+        <!-- FOUR -->
+        <div class="time-info left">
+          <h2>Testing Heading</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+            Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+            nobis quam?
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- START OUR FEATURE -->
+    <div id="Features" class="our-feature">
+      <h1>Our Feature</h1>
+      <div class="container">
+        <!-- BOX ONE -->
+        <div class="box">
+          <img src="./imgs/programming.svg" alt="" />
+          <h2>Development</h2>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <!-- BOX TWO -->
+        <div class="box">
+          <img src="./imgs/advertising.svg" alt="" />
+          <h2>Markting</h2>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <!-- BOX THREE -->
+        <div class="box">
+          <img src="./imgs/hosting-icon.svg" alt="" />
+          <h2>Hosting</h2>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <!-- BOX FOUR -->
+        <div class="box">
+          <img src="./imgs/mobile-app.svg" alt="" />
+          <h2>Mobile Development</h2>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <!-- BOX FIVE -->
+        <div class="box">
+          <img src="./imgs/graphic-design.svg" />
+          <h2>Cloud And Server</h2>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <!-- BOX SIX -->
+        <div class="box">
+          <img src="./imgs/web-design.svg" alt="" />
+          <h2>Seo</h2>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END OUR FEATURE -->
+    <!-- START TESTIMONIALS -->
+    <div id="Testimonials" class="testimonials">
+      <div class="container">
+        <h1>Testimonials</h1>
+        <div class="content">
+          <!-- CARD ONE -->
+          <div class="card">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="info">
+              <div class="img">80 x 80</div>
+              <div class="details">
+                <h3>Khalid Yousry</h3>
+                <p>CEO At Company</p>
+              </div>
+            </div>
+          </div>
+          <!-- CARD TWO -->
+          <div class="card">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="info">
+              <div class="img">80 x 80</div>
+              <div class="details">
+                <h3>Abdo Gado</h3>
+                <p>CEO At Company</p>
+              </div>
+            </div>
+          </div>
+          <!-- CARD THREE -->
+          <div class="card">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="info">
+              <div class="img">80 x 80</div>
+              <div class="details">
+                <h3>Mostafa Ahmed</h3>
+                <p>CEO At Company</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END TESTIMONIALS -->
+    <!-- START CONTACT US -->
+    <div class="contact-us">
+      <h1>Contact Us</h1>
+      <div class="container">
+        <div class="left">
+          <input type="text" placeholder="Your Name" />
+          <input type="text" placeholder="Your Phone" />
+          <input type="text" placeholder="Your Email" />
+          <input type="text" placeholder="Subject" />
+        </div>
+        <div class="right">
+          <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+          <button>Send</button>
+        </div>
+      </div>
+    </div>
+    <div class="mine">
+      &copy; Coded With Love By <span>Khalid Yousry</span> 2023
+    </div>
+    <!-- END CONTACT US -->
+    <!-- js files -->
+    <script src="./main.js"></script>
+  </body>
+</html>
